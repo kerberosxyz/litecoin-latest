@@ -126,7 +126,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xeeea3f592d87779a647a75af6cd1219b4aaacb7d71497489250f4bd9d25b30f0"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        //vSeeds.emplace_back("seed-a.litecoin.loshan.co.uk");
+        vSeeds.emplace_back("dnsseed.supersysadmin.com");
         //vSeeds.emplace_back("dnsseed.thrasher.io");
         //vSeeds.emplace_back("dnsseed.litecointools.com");
         //vSeeds.emplace_back("dnsseed.litecoinpool.org");
